@@ -21,8 +21,8 @@ for (let i = 0; i < 2; i++){
 		appData.expenses[a] = b;
 	}
 	else {
-		let a = prompt("New Введите обязательную статью расходов в этом месяце", ''),
-		b = prompt("New Во сколько обойдется?", '');
+		console.log ("bad result");
+        i--;
 	}
 	
 }
